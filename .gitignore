@@ -50,6 +50,9 @@ Temporary Items
 /TestAzure/TestAzure/Properties/
 /TestAzure/TestAzure/obj/
 /TestAzure/TestAzure/bin/
+/TestAzure/TestAzure/Content/
+/TestAzure/TestAzure/fonts/
+/TestAzure/TestAzure/Scripts/
 
 /TestAzure/TestAzure_BL/Properties/
 /TestAzure/TestAzure_BL/obj/
