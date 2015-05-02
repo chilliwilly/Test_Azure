@@ -45,6 +45,7 @@ Temporary Items
 *.suo
 *.edmx
 *.dll
+Web.*
 
 # Rutas que no se tomaran en cuenta
 /TestAzure/TestAzure/Properties/
