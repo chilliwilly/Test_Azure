@@ -13,19 +13,19 @@ namespace TestAzure_DL
     {
         private static String conStr = System.Configuration.ConfigurationManager.ConnectionStrings["ora_sico_mancal"].ConnectionString;
 
-        public String selectValidaLogin(String usr, String pwd) 
+        public String selectValidaLogin(String usr, String pwd)
         {
             String valida = "";
 
-            using (OracleConnection con = new OracleConnection(conStr)) 
+            using (OracleConnection con = new OracleConnection(conStr))
             {
                 con.Open();
                 String qry = "FN_TEST_VALIDA_LOGIN";
-                using (OracleCommand cmd = new OracleCommand(qry, con)) 
+                using (OracleCommand cmd = new OracleCommand(qry, con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.Add(new OracleParameter("VALIDADOR", OracleDbType.Varchar2)).Direction = ParameterDirection.ReturnValue;
+                    cmd.Parameters.Add(new OracleParameter("VALIDADOR", OracleDbType.Varchar2, 100)).Direction = ParameterDirection.ReturnValue;
 
                     cmd.Parameters.Add(new OracleParameter("USRNICK", OracleDbType.Varchar2)).Value = usr;
                     cmd.Parameters["USRNICK"].Direction = ParameterDirection.Input;

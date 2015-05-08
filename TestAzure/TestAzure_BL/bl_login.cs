@@ -12,7 +12,7 @@ namespace TestAzure_BL
     {
         dl_login objLogin;
 
-        public String selValidaLogin(String usr, String pwd) 
+        public String selValidaLogin(String usr, String pwd)
         {
             String msg = "";
             objLogin = new dl_login();

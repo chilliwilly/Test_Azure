@@ -24,7 +24,7 @@ namespace TestAzure
         }
 
         [WebMethod]
-        public String validaLogin(String user, String passwd) 
+        public String validaLogin(String user, String passwd)
         {
             TestAzure_BL.bl_login objLog = new TestAzure_BL.bl_login();
 
