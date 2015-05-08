@@ -1,15 +1,16 @@
-﻿function validaLogin() {
+﻿function validaLogin(usr, pwd) {
     $.ajax({
         type: "POST",
-        url: "/asmx_files/js_llenado.asmx/insObjCotizacion",
+        url: "/web_service/ws_login.asmx/validaLogin",
         datatype: "json",
         contentType: "application/json; charset=utf-8",
-        data: JSON.stringify({ "cot": CotizacionObject(), "trans": CotizacionTransObject(), "comi": CotizacionComisObject() }),
+        data: JSON.stringify({ "user": usr, "passwd": pwd }),
         success: function (data, status) {
-            $("#txtMailVendedor").val(data.d);
+            alert(data.d);
+            window.location = "http://www.teamliquid.net";
         },
         error: function (data) {
-            alert("Error al buscar mail del vendedor");
+            alert("Error ejecutar validador de login");
         }
     });
 }

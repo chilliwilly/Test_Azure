@@ -24,9 +24,11 @@ namespace TestAzure
         }
 
         [WebMethod]
-        public Boolean validaLogin() 
+        public String validaLogin(String user, String passwd) 
         {
-            return false;
+            TestAzure_BL.bl_login objLog = new TestAzure_BL.bl_login();
+
+            return objLog.selValidaLogin(user, passwd);
         }
     }
 }

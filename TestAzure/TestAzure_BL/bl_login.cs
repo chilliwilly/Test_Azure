@@ -10,5 +10,16 @@ namespace TestAzure_BL
 {
     public class bl_login
     {
+        dl_login objLogin;
+
+        public String selValidaLogin(String usr, String pwd) 
+        {
+            String msg = "";
+            objLogin = new dl_login();
+
+            msg = objLogin.selectValidaLogin(usr, pwd);
+
+            return msg;
+        }
     }
 }

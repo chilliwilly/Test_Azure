@@ -10,6 +10,7 @@
     <%--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />--%>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="web_script/js_usuario.js"></script>
     <%--<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>--%>
 </head>
@@ -72,7 +73,7 @@
                 alert("Debe ingresar una contraseña");
             }
             else {
-                window.location = "http://www.teamliquid.net";
+                validaLogin($("#inputEmail").val(), $("#inputPasswd").val());
             }
         }
     </script>

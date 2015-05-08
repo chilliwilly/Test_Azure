@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Oracle.DataAccess.Client;
 using System.Data;
+using System.Configuration;
 
 namespace TestAzure_DL
 {
