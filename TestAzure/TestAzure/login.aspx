@@ -6,13 +6,10 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link href="Content/bootstrap.css" rel="stylesheet" />
-    <%--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />--%>
-    <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/jquery-1.9.1.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />    
+    <script src="Scripts/bootstrap.js"></script>    
     <script src="web_script/js_usuario.js"></script>
-    <%--<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>--%>
 </head>
 <body>
     <div class="container">    
