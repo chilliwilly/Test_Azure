@@ -1,0 +1,14 @@
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure.dll.config
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure.pdb
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\obj\Debug\TestAzure.csprojResolveAssemblyReference.cache
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\obj\Debug\TestAzure.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\obj\Debug\TestAzure.pdb
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\Oracle.DataAccess.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\Oracle.Web.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure_BL.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure_Clases.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure_DL.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure_BL.pdb
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure_Clases.pdb
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure\bin\TestAzure_DL.pdb

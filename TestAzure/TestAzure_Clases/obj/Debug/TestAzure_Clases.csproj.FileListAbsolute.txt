@@ -1,0 +1,5 @@
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure_Clases\bin\Debug\TestAzure_Clases.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure_Clases\bin\Debug\TestAzure_Clases.pdb
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure_Clases\obj\Debug\TestAzure_Clases.csprojResolveAssemblyReference.cache
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure_Clases\obj\Debug\TestAzure_Clases.dll
+C:\Users\Williams\Documents\GitHub\Test_Azure\TestAzure\TestAzure_Clases\obj\Debug\TestAzure_Clases.pdb
