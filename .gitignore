@@ -41,30 +41,30 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-*.sln
-*.suo
-*.edmx
-*.dll
-Web.*
+# *.sln
+# *.suo
+# *.edmx
+# *.dll
+# Web.*
 
 # Rutas que no se tomaran en cuenta
-/TestAzure/TestAzure/Properties/
-/TestAzure/TestAzure/obj/
-/TestAzure/TestAzure/bin/
-/TestAzure/TestAzure/Content/
-/TestAzure/TestAzure/fonts/
-/TestAzure/TestAzure/Scripts/
+# /TestAzure/TestAzure/Properties/
+# /TestAzure/TestAzure/obj/
+# /TestAzure/TestAzure/bin/
+# /TestAzure/TestAzure/Content/
+# /TestAzure/TestAzure/fonts/
+# /TestAzure/TestAzure/Scripts/
 
-/TestAzure/TestAzure_BL/Properties/
-/TestAzure/TestAzure_BL/obj/
-/TestAzure/TestAzure_BL/bin/
+# /TestAzure/TestAzure_BL/Properties/
+# /TestAzure/TestAzure_BL/obj/
+# /TestAzure/TestAzure_BL/bin/
 
-/TestAzure/TestAzure_DL/Properties/
-/TestAzure/TestAzure_DL/obj/
-/TestAzure/TestAzure_DL/bin/
+# /TestAzure/TestAzure_DL/Properties/
+# /TestAzure/TestAzure_DL/obj/
+# /TestAzure/TestAzure_DL/bin/
 
-/TestAzure/TestAzure_Clases/Properties/
-/TestAzure/TestAzure_Clases/obj/
-/TestAzure/TestAzure_Clases/bin/packages
+# /TestAzure/TestAzure_Clases/Properties/
+# /TestAzure/TestAzure_Clases/obj/
+# /TestAzure/TestAzure_Clases/bin/packages
 
-/TestAzure/packages/
+# /TestAzure/packages/
